@@ -1,0 +1,167 @@
+body {
+    background-image: url(images/halftone-yellow.png)
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: "Apple Chancery";
+    background: blue;
+    font-weight: 900;
+    color: white;
+    height: 50px;
+    
+}
+.header2{
+}
+
+
+@media screen and (min-width: 980px) {
+    h1 {
+        margin-right: auto !important;
+    }
+    .contactboxbackground{
+        margin: 20px 400px 20px 20px;
+    }
+    .portfoliobackground {
+        margin: 20px 200px 20px 20px;
+    }
+    #Image1{
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 40px 25px;
+    }
+    #Image2{
+        position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 40px 25px;
+    }
+    #Image3{
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 40px 25px;
+    }
+    #Image4{
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 40px 25px;
+    }
+    #Image5{
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 40px 25px;
+    }
+    .Image{
+        margin-bottom: 20px;
+        position: relative;
+        width:274px; 
+        height:205.5px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width:767px){
+    h1 {
+        background: red;
+        width: 400px;
+        height: 50px;
+        text-align: center;
+    }
+    .contactboxbackground{
+        margin: 20px 20px 20px 20px;
+    }
+    .portfoliobackground {
+        margin: 20px;
+    }
+    .Image{
+        margin-bottom: 20px;
+        position: relative;
+        width:274px; 
+        height:205.5px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:979px){
+    h1 {
+        margin-right: auto !important;
+    
+    }
+    .contactboxbackground{
+        margin: 30px;
+    }
+    .portfoliobackground {
+        margin: 20px;
+    }
+    #Image1{
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 20px 25px;
+    }
+    #Image2{
+        position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 20px 25px;
+    }
+    #Image3{
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 20px 25px;
+    }
+    #Image4{
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 20px 25px;
+    }
+    #Image5{
+        position: relative;
+        float: left;
+        width: 274px;
+        margin: 20px 20px 25px;
+    }
+    .Image{
+        margin-bottom: 20px;
+        position: relative;
+        width:200px; 
+        height:150px;
+    }
+}
+
+.nav {
+    background: white;
+    width: 100%;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: "Apple Chancery";
+    color: red;
+}
+
+
+
+
+.contactboxbackground {
+    background: white;
+    padding: 20px;
+}
+
+.indexbackground {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    overflow: auto;
+}
+
+.portfoliobackground {
+    background: white;
+    padding: 20px;
+    overflow: auto;
+}
+
