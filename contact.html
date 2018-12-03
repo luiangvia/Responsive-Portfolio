@@ -6,20 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Contact</title>
     <link rel="stylesheet" type="text/css" media="screen" href="reset.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
-    <meta name="viewport" content= "width=device-width,initial-scale-1">
+    <meta name="viewport" content="width=device-width,initial-scale-1">
     <script src="main.js"></script>
 </head>
 
 <body>
-    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+    <div class="headerbox">
         <h1>La Casa de Los Antojitos</h1>
-        <nav class="my-2 my-md-0 mr-md-3">
-            <a class="p-2 text-dark" href="index.html">Our Story</a>
-            <a class="p-2 text-dark" href="portfolio.html">Menu</a>
-            <a class="p-2 text-dark" href="contact.html">Contact</a>
+        <nav class="navbar">
+            <a class="button" href="index.html"id="indexb">Our Story</a>
+            <a class="button" href="portfolio.html">Menu</a>
+            <a class="button" href="contact.html" id="indexb">Contact</a>
         </nav>
     </div>
     <div class="contactboxbackground">
@@ -28,23 +26,21 @@
             Please leave your name, number, and message.
         </h2>
         <form>
-            <div class="form-group">
-                <label for="exampleInputEmail1">Full name:</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                    placeholder="Luis Via">
+            <div class="form">
+                <label for="forminput">Full name:</label>
+                <input type="name" class="formbar" placeholder="Luis Via">
 
             </div>
-            <div class="form-group">
-                <label for="exampleInputEmail1">Number:</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                    placeholder="(917)345-5402">
+            <div class="form">
+                <label for="forminput">Number:</label>
+                <input type="email" class="formbar" placeholder="(917)345-5402">
             </div>
-            <div class="form-group">
-                <label for="exampleFormControlTextarea1">Message:</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                <small id="emailHelp" class="form-text text-muted">We'll never share your information with anyone else.</small>
+            <div class="form">
+                <label for="textinput">Message:</label>
+                <textarea class="formbar" rows="6" id="textbar"></textarea>
+                <small class="formalert">We'll never share your information with anyone else.</small>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="submit">Submit</button>
         </form>
     </div>
 </body>
